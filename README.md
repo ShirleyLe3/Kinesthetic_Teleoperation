@@ -7,15 +7,14 @@ Install hello-robot-stretch-body:
 ```
 pip install hello-robot-stretch-body
 ```
-
 Clone the Repository:
 ```
 git clone https://github.com/hello-robot/stretch_body.git
 ```
-
 Navigate to the Demo Directory:
-```cd stretch_body/tools```
-
+```
+cd stretch_body/tools
+```
 Run the Demos: The tools directory contains various demo scripts. For example, to run the basic movement demo, you can execute:
 ```python demo_move.py```
 
@@ -24,6 +23,7 @@ You need to plug in the device to the computer. The device typically includes a 
 
 Example Script
 Here is an example script from the demo_move.py file, which you can use to move the robot:
+
 ```
 import time
 from hello_robot_stretch_body import StretchBody
@@ -38,9 +38,8 @@ try:
     body.wheels.set_speed(1.0)
 
     time.sleep(5)
-
 finally:
-    # Stop the wheels and reset joint angles
+    Stop the wheels and reset joint angles
     body.wheels.set_speed(0)
     body.arm.move_to_joint_positions([0, 0, 0, 0, 0, 0], 0.5)
     body.close()
@@ -53,10 +52,14 @@ Run the script from the terminal:
 Troubleshooting
 If you encounter any issues, you can refer to the following resources:
 https://docs-arch.hello-robot.com/0.3/
+
 https://github.com/hello-robot/stretch_body
+
 https://github.com/hello-robot/stretch_ai
 
 
-#Get Started Writing Scripts
+# Get Started Writing Scripts
 
 https://docs-arch.hello-robot.com/0.3/getting_started/writing_code/
+
+https://docs-arch.hello-robot.com/0.3/python/moving/
