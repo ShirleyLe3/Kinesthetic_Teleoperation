@@ -56,3 +56,7 @@ https://docs-arch.hello-robot.com/0.3/
 https://github.com/hello-robot/stretch_body
 https://github.com/hello-robot/stretch_ai
 
+
+#Get Started Writing Scripts
+
+https://docs-arch.hello-robot.com/0.3/getting_started/writing_code/
