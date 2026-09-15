@@ -52,3 +52,7 @@ Run the script from the terminal:
 
 Troubleshooting
 If you encounter any issues, you can refer to the following resources:
+https://docs-arch.hello-robot.com/0.3/
+https://github.com/hello-robot/stretch_body
+https://github.com/hello-robot/stretch_ai
+
